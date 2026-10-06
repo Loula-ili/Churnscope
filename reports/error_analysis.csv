@@ -1,0 +1,8 @@
+segment,group,clients,actual_churn,detected_churn,missed_churn,false_alerts,recall
+Contrat,Month-to-month,773,329,193,136,97,0.5866
+Contrat,One year,300,36,0,36,0,0.0
+Contrat,Two year,336,9,0,9,0,0.0
+Ancienneté,0–12 mois,449,215,150,65,73,0.6977
+Ancienneté,13–24 mois,206,60,25,35,14,0.4167
+Ancienneté,25–48 mois,304,64,16,48,9,0.25
+Ancienneté,49+ mois,450,35,2,33,1,0.0571

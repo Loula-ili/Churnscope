@@ -1,0 +1,237 @@
+{
+  "rows": 7043,
+  "column_count": 21,
+  "duplicate_customer_ids": 0,
+  "identical_profiles_without_id": 22,
+  "empty_total_charges_filled_with_zero": 11,
+  "inconsistent_phone_or_internet_services": 0,
+  "negative_numeric_values": 0,
+  "columns": [
+    {
+      "name": "customerID",
+      "dtype_raw": "str",
+      "distinct_values": 7043,
+      "null_values": 0,
+      "blank_strings": 0
+    },
+    {
+      "name": "gender",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Male": 3555,
+        "Female": 3488
+      }
+    },
+    {
+      "name": "SeniorCitizen",
+      "dtype_raw": "int64",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "0": 5901,
+        "1": 1142
+      }
+    },
+    {
+      "name": "Partner",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3641,
+        "Yes": 3402
+      }
+    },
+    {
+      "name": "Dependents",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 4933,
+        "Yes": 2110
+      }
+    },
+    {
+      "name": "tenure",
+      "dtype_raw": "int64",
+      "distinct_values": 73,
+      "null_values": 0,
+      "blank_strings": 0
+    },
+    {
+      "name": "PhoneService",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Yes": 6361,
+        "No": 682
+      }
+    },
+    {
+      "name": "MultipleLines",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3390,
+        "Yes": 2971,
+        "No phone service": 682
+      }
+    },
+    {
+      "name": "InternetService",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Fiber optic": 3096,
+        "DSL": 2421,
+        "No": 1526
+      }
+    },
+    {
+      "name": "OnlineSecurity",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3498,
+        "Yes": 2019,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "OnlineBackup",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3088,
+        "Yes": 2429,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "DeviceProtection",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3095,
+        "Yes": 2422,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "TechSupport",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 3473,
+        "Yes": 2044,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "StreamingTV",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 2810,
+        "Yes": 2707,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "StreamingMovies",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 2785,
+        "Yes": 2732,
+        "No internet service": 1526
+      }
+    },
+    {
+      "name": "Contract",
+      "dtype_raw": "str",
+      "distinct_values": 3,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Month-to-month": 3875,
+        "Two year": 1695,
+        "One year": 1473
+      }
+    },
+    {
+      "name": "PaperlessBilling",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Yes": 4171,
+        "No": 2872
+      }
+    },
+    {
+      "name": "PaymentMethod",
+      "dtype_raw": "str",
+      "distinct_values": 4,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "Electronic check": 2365,
+        "Mailed check": 1612,
+        "Bank transfer (automatic)": 1544,
+        "Credit card (automatic)": 1522
+      }
+    },
+    {
+      "name": "MonthlyCharges",
+      "dtype_raw": "float64",
+      "distinct_values": 1585,
+      "null_values": 0,
+      "blank_strings": 0
+    },
+    {
+      "name": "TotalCharges",
+      "dtype_raw": "str",
+      "distinct_values": 6531,
+      "null_values": 0,
+      "blank_strings": 11
+    },
+    {
+      "name": "Churn",
+      "dtype_raw": "str",
+      "distinct_values": 2,
+      "null_values": 0,
+      "blank_strings": 0,
+      "categories": {
+        "No": 5174,
+        "Yes": 1869
+      }
+    }
+  ]
+}

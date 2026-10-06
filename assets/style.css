@@ -1,0 +1,13 @@
+﻿body { margin: 0; background: #f5f7fa; color: #15253a; font-family: Arial, sans-serif; }
+.page { max-width: 1050px; margin: auto; padding: 48px 24px; }
+.lead, .model { color: #55718a; }
+.cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 28px 0; }
+.card { background: #fff; border-left: 4px solid #315d85; padding: 16px; box-shadow: 0 2px 12px #1d385d12; }
+.card p { margin: 0 0 8px; color: #55718a; font-size: 13px; }
+.card strong { font-size: 27px; }
+.results-table { border-collapse: collapse; width: 100%; max-width: 620px; background: #fff; margin: 14px 0 28px; }
+.results-table th, .results-table td { text-align: left; padding: 10px 14px; border-bottom: 1px solid #dbe3ea; }
+.results-table th { color: #315d85; }
+.table-wrap { overflow-x: auto; }
+.table-wrap .results-table { max-width: none; }
+@media (max-width: 700px) { .cards { grid-template-columns: repeat(2, 1fr); } }
